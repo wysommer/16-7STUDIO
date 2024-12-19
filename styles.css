@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#landing {
+    background-color: #f0f0f0;
+    height: 100vh;
+}
+
+.loading__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-bottom: 80px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 300px;
+    padding: 0 0 12px 0;
+}
