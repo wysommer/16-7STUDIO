@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>16:7STUDIO®</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c8fc247de9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <section id="landing">
-        <div class="loading__content">
-            <img src="./assets/logo.png" alt="logo" class="logo">
-            <p class="loading__para">... COMING SOON ...</p>
-        </div>
+      <i class="fa-solid fa-ellipsis" onclick="openAbout()"></i>
+      <div class="loading__content">
+        <img src="./assets/logo.png" alt="logo" class="logo" />
+        <p class="loading__para">... COMING SOON ...</p>
+      </div>
+      <div class="about__modal">
+        <i class="fa-solid fa-xmark" onclick="closeAbout()"></i>
+        <p class="about__para">
+          16:7STUDIO® is an international media group. We build and grow social media pages then advertise for companies. Our pages include the categories of fashion, art, software engineering, and more...
+        </p>
+      </div>
     </section>
-</body>
+  </body>
 </html>
